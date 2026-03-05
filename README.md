@@ -1,23 +1,29 @@
-# CNN/DailyMail Summarization
+# 🧠 CNN/DailyMail Summarization
 
 This project demonstrates **text summarization** on the CNN/DailyMail news dataset. It applies both **abstractive** and **extractive** approaches to generate summaries for news articles.
 
-✂️ Approaches Used:
+---
+
+## ✂️ Approaches Used
 
 - **Abstractive Summarization**: BART-large-CNN (Hugging Face Transformers)  
 - **Extractive Summarization**: TextRank (Sumy)
 
-📌 Project Overview
+---
+
+## 📌 Project Overview
 
 Text summarization is an NLP task that condenses text while preserving meaning. In this project, we:
 
-- Load and preprocess the CNN/DailyMail dataset
-- Generate summaries using BART (abstractive)
-- Generate summaries using TextRank (extractive)
-- Compare summaries to reference summaries using ROUGE metrics
+- Load and preprocess the CNN/DailyMail dataset  
+- Generate summaries using BART (abstractive)  
+- Generate summaries using TextRank (extractive)  
+- Compare summaries to reference summaries using ROUGE metrics  
 - Visualize ROUGE scores
 
-🛠️ Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 - Python 3  
 - Hugging Face Transformers  
@@ -27,7 +33,9 @@ Text summarization is an NLP task that condenses text while preserving meaning. 
 - Pandas & Matplotlib  
 - Jupyter Notebook  
 
-📂 Dataset
+---
+
+## 📂 Dataset
 
 **CNN/DailyMail v3.0.0**  
 
@@ -36,8 +44,11 @@ The dataset contains:
 - News articles  
 - Reference summaries (highlights)  
 
-⚙️ Installation
+---
 
+## ⚙️ Installation
+
+```bash
 git clone https://github.com/<your-username>/cnn-dailymail-summarization.git
 cd cnn-dailymail-summarization
 pip install -r requirements.txt
