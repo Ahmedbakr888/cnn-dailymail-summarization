@@ -1,4 +1,4 @@
-****🧠 CNN/DailyMail Summarization -- Abstractive & Extractive****
+# CNN/DailyMail Summarization
 
 This project demonstrates **text summarization** on the CNN/DailyMail news dataset. It applies both **abstractive** and **extractive** approaches to generate summaries for news articles.
 
