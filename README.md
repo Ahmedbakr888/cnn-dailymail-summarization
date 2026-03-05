@@ -52,6 +52,7 @@ The dataset contains:
 git clone https://github.com/<your-username>/cnn-dailymail-summarization.git
 cd cnn-dailymail-summarization
 pip install -r requirements.txt
+```bash
 
 ▶️ How to Run
 
