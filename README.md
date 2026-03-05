@@ -52,38 +52,43 @@ The dataset contains:
 git clone https://github.com/<your-username>/cnn-dailymail-summarization.git
 cd cnn-dailymail-summarization
 pip install -r requirements.txt
-```bash
-
-▶️ How to Run
+```
+##▶️ How to Run
 
 1. Open the notebook:  
-   notebooks/summarization_pipeline.ipynb
-2. Run all cells sequentially. The notebook will:
+   `notebooks/summarization_pipeline.ipynb`  
+2. Run all cells sequentially. The notebook will:  
    - Load dataset  
    - Generate abstractive summaries (BART)  
    - Generate extractive summaries (TextRank)  
    - Evaluate ROUGE metrics  
    - Save results to CSV  
 
-🔎 Example
+---
+
+## 🔎 Example
 
 **Article (excerpt):**  
-The Palestinian Authority officially became the 123rd member of the International Criminal Court on Wednesday...
+> The Palestinian Authority officially became the 123rd member of the International Criminal Court on Wednesday...
 
 **Abstractive Summary (BART):**  
-Membership gives the ICC jurisdiction over alleged crimes committed in Palestinian territories...
+> Membership gives the ICC jurisdiction over alleged crimes committed in Palestinian territories...
 
 **Extractive Summary (TextRank):**  
-(CNN)The Palestinian Authority officially became the 123rd member of the International Criminal Court on Wednesday, a step that gives the court jurisdiction over alleged crimes in Palestinian territories...
+> (CNN)The Palestinian Authority officially became the 123rd member of the International Criminal Court on Wednesday, a step that gives the court jurisdiction over alleged crimes in Palestinian territories...
 
-🚀 Future Improvements
+---
+
+## 🚀 Future Improvements
 
 - Fine-tune BART on a custom dataset for improved performance  
 - Evaluate on larger test set  
 - Compare other summarization models (T5, Pegasus)  
 - Deploy as a web app (Streamlit or Gradio)  
 
-👨‍💻 Author
+---
 
-Ahmed Bakr  
+## 👨‍💻 Author
+
+**Ahmed Bakr**  
 Python | NLP | Data Science Enthusiast
